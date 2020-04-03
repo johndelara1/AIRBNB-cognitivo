@@ -18,10 +18,9 @@ http://insideairbnb.com/get-the-data.html.
 Ele permite três tipos de modelagem, e você pode escolher
 apenas uma delas, a qual se sinta mais confortável. As três
 possíveis variáveis respostas são:
-● Previsão do preço da estadia (feature ‘price’)
-● Classificação do room type (feature ‘room_type’)
-● Segmentação dos principais assuntos das reviews
-(feature review_scores_rating’)
+    ● `Previsão do preço da estadia (feature ‘price’)`
+    ● `Classificação do room type (feature ‘room_type’)`
+    ● `Segmentação dos principais assuntos das reviews (feature review_scores_rating’)
 
 Faça uma análise exploratória para avaliar a consistência
 dos dados e identificar possíveis variáveis que impactam
@@ -42,4 +41,4 @@ O DESAFIO
     d. Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método?
     e. Quais evidências você possui de que seu modelo é suficientemente bom?
 
-> Atividade construtiva, para identificar uma análise aprofundada do `AIRBNB` como a ideia é de simulação de cliente, acredito ter atendindo as expectativas propostas.
+> Atividade construtiva, para identificar uma análise aprofundada do `AIRBNB`, como a ideia é de simulação de cliente, acredito ter atendindo as expectativas propostas.
