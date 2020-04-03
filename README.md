@@ -20,7 +20,7 @@ apenas uma delas, a qual se sinta mais confortável. As três
 possíveis variáveis respostas são:
     ● `Previsão do preço da estadia (feature ‘price’)`
     ● `Classificação do room type (feature ‘room_type’)`
-    ● `Segmentação dos principais assuntos das reviews (feature review_scores_rating’)
+    ● `Segmentação dos principais assuntos das reviews (feature review_scores_rating’)`
 
 Faça uma análise exploratória para avaliar a consistência
 dos dados e identificar possíveis variáveis que impactam
