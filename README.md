@@ -18,13 +18,6 @@ http://insideairbnb.com/get-the-data.html.
 Ele permite três tipos de modelagem, e você pode escolher
 apenas uma delas, a qual se sinta mais confortável. As três
 possíveis variáveis respostas são:
-<<<<<<< HEAD
-=======
-
-    `● Previsão do preço da estadia (feature ‘price’)`
-    `● Classificação do room type (feature ‘room_type’)`
-    `● Segmentação dos principais assuntos das reviews (feature review_scores_rating’)`
->>>>>>> 3f0637707b78cdaf6caea933ca5d4489b2253b7a
 
     ● Previsão do preço da estadia (feature ‘price’)
         Prever o preço de cada bairro do rio de Janeiro usando descrições de listagem? 
