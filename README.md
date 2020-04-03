@@ -40,6 +40,7 @@ O DESAFIO
 
 
     a. Como foi a definição da sua estratégia de modelagem?
+        Resolver problema de negócios, real, ou seja, desta maneira creio que muitas empresas, gostariam de saber qual o faturamento dos próximos períodos, de acordo com as regiões, desta maneira
     b. Como foi definida a função de custo utilizada?
     c. Qual foi o critério utilizado na seleção do modelo final?
     d. Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método?
