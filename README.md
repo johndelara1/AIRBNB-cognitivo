@@ -1,14 +1,16 @@
 # AIRBNB-cognitivo
 Airbnb é um serviço online comunitário para as pessoas anunciarem, descobrirem e reservarem acomodações e meios de hospedagem.
 
-## Usage
-To use this image, pull from [Docker Hub](https://hub.docker.com/r/neowaylabs/gcloud-pubsub-emulator/), run the following command:
+## Usando
+Para utilizar esse repositório, com  seu Rstudio instalado e entre em File -> New_Project... -> Version Control -> Git
+Cole o link abaixo no Repository URL: 
+Clique em Created Project
 
 ```
-docker pull neowaylabs/gcloud-pubsub-emulator
+https://github.com/johndelara1/AIRBNB-cognitivo.git
 ```
 
-to run it you can use
+Após o processo você poderá fechar a janela que aparece e pronto, esse repositório estará na sua máquina 
 
     docker run --rm -p "8085:8085" neowaylabs/gcloud-pubsub-emulator
 
