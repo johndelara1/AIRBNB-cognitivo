@@ -1,3 +1,4 @@
+################################################# Tradução das Variáveis #################################################
 renomear_listagens <- c("id_listagem_zip",
                         "listagem_url",
                         "raspar_id",
@@ -105,3 +106,15 @@ renomear_listagens <- c("id_listagem_zip",
                         "avaliacoes_por_mes")
 colnames(listings_zip) <- renomear_listagens
 
+colnames(calendar_zip) <- c("id", "data", "avaliacao", "preco", "ajuste_do_preco", "minimo_de_noites", "maximo_noites")
+
+nomes_listagens <- c("id_listagem", "nome", "id_host", "nome_host", "grupo_de_vizinhanca", "vizinhanca", "latitude", "longitude",
+  "tipo_de_sala", "preco", "minimo_de_noites", "numero_de_avaliacoes", "ultima_avaliacao",
+  "avaliacoes_por_mes", "contagem_calculada_de_listagens_de_host", "disponibilidade_365")
+colnames(listings) <- nomes_listagens
+
+colnames(reviews_zip) <- c("id_listagem", "id_avaliacao", "data", "id_avaliacao", "nome_avaliacao", "comentarios")
+
+colnames(reviews) <- c("id_listagem", "data")
+
+colnames(neighbourhoods) <- c("grupo_de_vizinhos", "vizinhanca")
