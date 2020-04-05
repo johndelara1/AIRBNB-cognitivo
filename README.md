@@ -41,7 +41,7 @@ O DESAFIO
     exatas ou aproximadamente exatas, depois dos devidos cortes, podemos seguir para a modelagem.     
      
 #### b. Como foi definida a função de custo utilizada?
-    Avaliamos esse modelo no conjunto de testes, usando o erro absoluto médio para medir o desempenho do modelo. 
+    Avaliamos esse modelo no conjunto de testes, usando o erro absoluto médio para medir o desempenho do modelo 
     Também incluiremos o erro quadrático médio quadrado (RMSE) para fins de integridade.
 #### c. Qual foi o critério utilizado na seleção do modelo final?
     O critério utilizado foi MAE (mediana do erro absoluto), é a distância interquartilica tendo em vista que 
@@ -64,6 +64,7 @@ O DESAFIO
     que depois ajustamos. Em nossos resultados, a Randon Forest ajustado e o XGBoost ajustado tiveram o 
     melhor desempenho, através do das medidas de RMSE (Raiz quadrada do erro-médio) e MAE (Median Absolute Error), 
     bem como mostra no gráfico abaixo:
-    ![png](melhor_modelo.png)
+    
+![png](melhor_modelo.png)
     
 > Atividade construtiva, para identificar uma análise aprofundada dos preços RJ no `AIRBNB`
