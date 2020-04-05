@@ -41,7 +41,7 @@ O DESAFIO
     exatas ou aproximadamente exatas, depois dos devidos cortes, podemos seguir para a modelagem.     
      
 #### b. Como foi definida a função de custo utilizada?
-    Avaliamos esse modelo no conjunto de testes, usando o erro absoluto médio para medir o desempenho do modelo. 
+    Avaliamos esse modelo no conjunto de testes, usando o erro absoluto médio para medir o desempenho do modelo 
     Também incluiremos o erro quadrático médio quadrado (RMSE) para fins de integridade.
 #### c. Qual foi o critério utilizado na seleção do modelo final?
     O critério utilizado foi MAE (mediana do erro absoluto), é a distância interquartilica tendo em vista que 
