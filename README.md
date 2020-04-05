@@ -1,5 +1,5 @@
 
-# AIRBNB-cognitivo
+# AIRBNB
 Airbnb é um serviço online comunitário para as pessoas anunciarem, descobrirem e reservarem acomodações e meios de hospedagem.
 
 ## Usando
