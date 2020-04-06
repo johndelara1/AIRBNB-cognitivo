@@ -35,10 +35,11 @@ O DESAFIO
 
 
 #### a. Como foi a definição da sua estratégia de modelagem?
-    Com algumas análises descritivas para entender o comportamento da variável resposta (Preço).Para não termos 
-    problemas com overfitting os dados de variáveis categóricas, ajustadas nas mesmas proporções, verifiquei a
-    multicolinearidade para que não tenhamos problemas com variáveis independentes que possuem relações lineares 
-    exatas ou aproximadamente exatas, depois dos devidos cortes, podemos seguir para a modelagem.     
+    Com algumas análises descritivas para entender o comportamento da variável resposta (Preço).
+    Para não termos problemas com overfitting os dados de variáveis categóricas, ajustadas nas mesmas 
+    proporções, verifiquei a multicolinearidade para que não tenhamos problemas com variáveis independentes 
+    que possuem relações lineares exatas ou aproximadamente exatas, depois dos devidos cortes, podemos seguir
+    para a modelagem.     
      
 #### b. Como foi definida a função de custo utilizada?
     Avaliamos esse modelo no conjunto de testes, usando o erro absoluto médio para medir o desempenho do modelo 
@@ -61,8 +62,8 @@ O DESAFIO
 #### e. Quais evidências você possui de que seu modelo é suficientemente bom?
     Primeiro, foi feito o pré-processamento dos dados para remover quaisquer recursos redundantes e reduzir a 
     esparsidade dos dados. Em seguida, apliquei três algoritmos diferentes, inicialmente com parâmetros padrão 
-    que depois ajustamos. Em nossos resultados, a Randon Forest ajustado e o XGBoost ajustado tiveram o 
-    melhor desempenho, através do das medidas de RMSE (Raiz quadrada do erro-médio) e MAE (Median Absolute Error), 
+    que depois ajustamos. Em nossos resultados, a Randon Forest ajustado e XGBoost ajustado tiveram o melhor 
+    desempenho, através do das medidas de RMSE(Raiz quadrada do erro-médio) e MAE(Median Absolute Error) 
     bem como mostra no gráfico abaixo:
     
 ![png](melhor_modelo.png)
